@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "chromeImagePicker",
+  "description": "A small extension for you receiving fresh pictures with few resources",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
+  
+  "permissions": [
+    "activeTab",
+	"http://*/",
+    "http://xdan.ru/*",
+	"http://yandex.ru/*",
+    "http://images.yandex.ru/*",
+	"https://www.tumblr.com/*",
+	"http://www.deviantart.com/browse/all/*",
+	"https://www.artstation.com/*",
+	"http://imgur.com/*",
+	"http://giphy.com/*",
+	"https://vk.com/*",
+	"http://m.vk.com/*"
+  ]
+}
