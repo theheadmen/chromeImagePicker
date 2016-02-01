@@ -1,1 +1,1 @@
-# chromeImagePicker
+# A small expansion of collecting fresh pictures with few resources
